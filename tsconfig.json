@@ -15,7 +15,8 @@
       "models/*": ["./src/models/*"],
       "routes/*": ["./src/routes/*"],
       "services/*": ["./src/services/*"],
-      "libs/*": ["./src/libs/*"]
+      "libs/*": ["./src/libs/*"],
+      "views/*": ["./src/views/*"]
     }
   },
   "include": ["src/**/*"],
