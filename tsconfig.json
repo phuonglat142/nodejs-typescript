@@ -16,7 +16,11 @@
       "routes/*": ["./src/routes/*"],
       "services/*": ["./src/services/*"],
       "libs/*": ["./src/libs/*"],
-      "views/*": ["./src/views/*"]
+      "views/*": ["./src/views/*"],
+      "validations/*": ["./src/validations/*"],
+      "types/*": ["./src/types/*"],
+      "middlewares/*": ["./src/middlewares/*"],
+      "utils/*": ["./src/utils/*"]
     }
   },
   "include": ["src/**/*"],

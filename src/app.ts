@@ -3,6 +3,7 @@ import "dotenv/config";
 import { connectDB } from "config/db";
 import initDatabase from "config/seed";
 import webRoutes from "routes/web";
+import apiRoutes from "routes/api";
 
 const app = express();
 const PORT = process.env.PORT || 8080;
@@ -17,6 +18,7 @@ app.set("views", __dirname + "/views");
 
 //routes
 webRoutes(app);
+apiRoutes(app);
 
 //config static files
 app.use(express.static("public"));
